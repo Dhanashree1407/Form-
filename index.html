@@ -6,70 +6,38 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <fieldset>
-        <legend>Personal Details</legend><br>
-        <label for="frist_name">Firstname </label>
-        <input type="text" id="frist_name"><br><br>
-        <label for="middle_name">Middlename: </label>
-        <input type="text" id="middle_name"><br><br>
-        <label for="last_name">Lastname: </label>
-        <input type="text" id="last_name"><br><br>
-        <label for="course">Course:</label>
+    <label for="">Personal details</label><br>
+    <label for="Salutation">Salutation</label><br>
 
-        <select name="course" id="course">
-            <option value="">Course</option>
-            <option value="">BCA</option>
-            <option value="">BBA</option>
-            <option value="">B.Tech</option>
-            <option value="">MBA</option>
-            <option value="">MCA</option>
-            <option value="">M.Tech</option>
-        </select><br><br>
+    <select name="Salutation" id="Salutation">
+        <option value="">--None--</option>
+        <option value="">Mr.</option>
+        <option value="">Mrs.</option>
+    </select><br><br>
 
-        <label for="gender">Gender:</label><br>
-        <input type="radio" name="gender" id="gender" value="male">
-        <label for="gender">Male</label><br>
-        <input type="radio" name="gender" id="gender" value="female">
-        <label for="gender">Female</label><br>
-        <input type="radio" name="gender" id="gender" value="other">
-        <label for="gender">Other</label><br><br>
+    <label for="frist_name">First Name:</label>
+    <input type="text" name="frist_name" id="frist_name" placeholder="abcd"><br><br>
+    <label for="last_name">Last Name:</label>
+    <input type="text" name="last_name" id="last_name" placeholder="abcd"><br><br>
 
-        <label for="date">DOB</label>
-        <input type="datetime-local" id="date"><br>
+    <label for="gender">Gender:</label>
+    <input type="radio">Male
+    <input type="radio">Female
+    <br><br>
 
-        <label for="phone">Phone :</label>
-        <input type="text" name="country code" id="phone"  value="+91" size="2" disabled>
-        <input type="tel" id="phone" maxlength="10" size="10">
-        <br><br>
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" placeholder="abc@gmail.com"><br><br>
 
-        <label for="address">Address</label><br>
-        <textarea name="address" id="address" cols="80" rows="5"></textarea><br><br>
+    <label for="date">Date of birth:</label>
+    <input type="date"><br><br>
 
-        <label for="email">Email:</label>
-        <input type="email" for="email" id="email"><br><br><br>
+    <label for="address">Address:</label><br>
+    <textarea name="address" id="" cols="30" rows="5"></textarea><br><br>
 
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password"><br><br><br>
-
-        <label for="pass">Re-type password:</label>
-        <input type="password" id="pass" name="pass"><br><br>
-
-        <input type="checkbox">Agree to terms and conditions <br><br>
-
-        <label for="">Choose File</label>
-        <input type="file" name="" id=""><br><br>
-
-        <label for="">Choose Color</label>
-        <input type="color"><br><br>
-
-        <input type="reset">
-        <input type="submit">
-    </fieldset>
+    <input type="submit">
 
 
 
-
-    </form>
+    
 </body>
 </html>
